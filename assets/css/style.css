@@ -169,7 +169,7 @@ h2 {
 }
 
 footer {
-    background-color: #307DB8 ;
+    background-color: #00223B ;
 }
 
 footer ul {
@@ -182,21 +182,19 @@ footer ul {
 p.copyright {
     padding: 3rem 0;
     color: rgba(255, 255, 255, 0.973);
-    font-size: 2.rem;
+    font-size: 1rem;
     text-align: center;
 }
 
-
 a.ico {
-    color: #FFFFFF;
+    width: 250px;
+    height: 250px;
     font-size: 1.5em;
+    color: #FFFFFF;
 }
 
-a.ico:hover {
-    position: absolute;
-    background-color:#ECECEC;
-    justify-content: center;
-    transition-delay: 0.5ms;
+.fa-user-shield:hover {
+    color: #F4A823;
 }
 
 .fa-facebook:hover {
@@ -204,9 +202,25 @@ a.ico:hover {
   }
 
 .fa-instagram:hover {
-
-	color: linear-gradient( 45deg, #001669, #007296 1%, #007296 11%, #015673 15%, 
-    #000 23.57%, transparent 23.57%, transparent 100% );
-
+    color: #DD2A7B;
 }
 
+.fa-linkedin:hover {
+    color: #0E76A8;
+}
+
+.fa-twitter:hover {
+    color: #00A7E7;
+}
+
+.fa-pinterest:hover {
+    color: #C51F26;
+}
+
+.fa-youtube:hover {
+    color: #FF0101;
+}
+
+.fa-award:hover {
+    color: #3CBFA1;
+}
