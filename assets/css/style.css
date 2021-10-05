@@ -186,41 +186,22 @@ p.copyright {
     text-align: center;
 }
 
-a.ico {
-    width: 250px;
-    height: 250px;
+
+.ico {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 1.2em;
+    align-items: center;
     font-size: 1.5em;
     color: #FFFFFF;
+    background-color:#42B0F8;
 }
 
-.fa-user-shield:hover {
-    color: #F4A823;
-}
-
-.fa-facebook:hover {
-    color: #3B5B98;
-  }
-
-.fa-instagram:hover {
-    color: #DD2A7B;
-}
-
-.fa-linkedin:hover {
-    color: #0E76A8;
-}
-
-.fa-twitter:hover {
-    color: #00A7E7;
-}
-
-.fa-pinterest:hover {
-    color: #C51F26;
-}
-
-.fa-youtube:hover {
-    color: #FF0101;
-}
-
-.fa-award:hover {
-    color: #3CBFA1;
+.ico:hover {
+    color: #00223B;
+    background-color: #ECECEC;
 }
