@@ -15,6 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
 }
 
 .logo img {
@@ -203,5 +204,5 @@ p.copyright {
 
 .ico:hover {
     color: #00223B;
-    background-color: #ECECEC;
+    background-color: #FFFFFF;
 }
